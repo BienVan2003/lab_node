@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic calculator</title>
+</head>
+
+<body>
+    <form action="/result" method="get">
+        <table>
+            <tr>
+                <td>Input 1</td>
+                <td><input type="text" name="a" placeholder="Number 1"></td>
+            </tr>
+            <tr>
+                <td>Input 2</td>
+                <td><input type="text" name="b" placeholder="Number 2"></td>
+            </tr>
+            <tr>
+                <td>Calculator</td>
+                <td>
+                    <select name="op" id="">
+                        <option value="">Select calculation</option>
+                        <option value="+">Add</option>
+                        <option value="-">Sub</option>
+                        <option value="*">Multi</option>
+                        <option value="/">Divide</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit">Compute</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
